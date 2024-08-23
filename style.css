@@ -1,0 +1,99 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background-color: #a2d2ff;
+    color: #fff;
+    text-shadow: 0px 0px 4px black;
+}
+
+
+.hero{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#photo{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #f59bbf;
+    background-color: lightgray;
+}
+
+#age{
+    background-color: #f59bbf;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#bday-date{
+    margin-top: 0;
+    background-color: #f59bbf;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.gift-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#first-caption{
+    margin-bottom: 0;
+}
+
+#hint{
+    margin-top: 10px;
+}
+
+.caption{
+    margin:0px 20px 10px 20px;
+    
+}
+.gif-box{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 6px solid white;
+    border-radius: 5px;
+    background-image: url("./images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gif-1:hover{
+    background-image: url("./images/happy.webp");
+    border: 6px solid greenyellow;
+}
+
+#gif-2:hover{
+    background-image: url("./images/badass.gif");
+    border: 6px solid greenyellow;
+
+}
+
+#gif-3:hover{
+    background-image: url("./images/dance.gif");
+    border: 6px solid greenyellow;
+}
+
+#gif-4:hover{
+    background-image: url("./images/girls.gif");
+    border: 6px solid greenyellow;
+}
+
+#gif-5:hover{
+    background-image: url("./images/one-line.gif");
+    border: 6px solid greenyellow;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
